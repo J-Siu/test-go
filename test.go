@@ -16,11 +16,17 @@ import (
 	"fmt"
 
 	"github.com/J-Siu/go-helper"
+	"github.com/J-Siu/go-ver"
 )
 
 func main() {
 	helper.Debug = true
+
+	ver.Major = 0
+	ver.Minor = 0
+	ver.Patch = 3
+
 	helper.DebugLog("debug msg")
-	fmt.Println("testing 0.0.1")
+	fmt.Println("version", ver.ToStr())
 	fmt.Println("This is a test.")
 }
