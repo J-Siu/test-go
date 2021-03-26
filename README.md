@@ -14,6 +14,8 @@ Testing repository for GO with github features.
 
 - 0.0.1
   - Initial Commit
+- 0.0.3
+  - Use go 1.16
 
 ### License
 
